@@ -1,0 +1,29 @@
+#端口
+server:
+  port: 8764
+# 服务名
+spring:
+  application:
+    name: eureka-conusmer
+  #数据库
+  datasource:
+    url: jdbc:mysql://10.100.9.112:3306/demo?characterEncoding=utf8&useSSL=true
+    username: root
+    password: angsi2019
+    name: test
+    # 使用阿里开源druid连接数据源
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+#扫描mybatis
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.angsivip.consumer.domain
+
+#注册中心地址 多个以逗号分隔
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8762/eureka/
+
+
+
