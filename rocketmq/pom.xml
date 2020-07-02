@@ -30,7 +30,7 @@
         <lombok.version>1.18.8</lombok.version>
         <rocketmq.version>1.18.8</rocketmq.version>
         <spring-cloud.version>Finchley.RELEASE</spring-cloud.version>
-        <mysql.version>5.1.47</mysql.version>
+        <mysql.version>8.0.16</mysql.version>
         <druid-starter.version>1.1.18</druid-starter.version>
         <spring-boot-starter-jdbc.versoin>2.0.1.RELEASE</spring-boot-starter-jdbc.versoin>
     </properties>
