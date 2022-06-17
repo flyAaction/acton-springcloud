@@ -25,7 +25,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
         <spring-boot.version>2.0.1.RELEASE</spring-boot.version>
-        <fastjson.version>1.2.48</fastjson.version>
+        <fastjson.version>1.2.83</fastjson.version>
         <commons-lang3.version>3.6</commons-lang3.version>
         <lombok.version>1.18.8</lombok.version>
         <rocketmq.version>1.18.8</rocketmq.version>
